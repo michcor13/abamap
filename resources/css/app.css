@@ -1,0 +1,103 @@
+/* .navbar-nav .active {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+} */
+
+#main-nav .navbar-nav li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #E51521;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+    transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+}
+
+#main-nav .navbar-nav li:not(.active):before {
+    visibility: hidden;
+}
+
+#main-nav .navbar-nav li.active::before,
+#main-nav .navbar-nav li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#main-nav .navbar-nav li.active a {
+    color: #00aeed !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#main-nav .navbar-nav li a {
+    color: black !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#main-nav .navbar-nav>li {
+    float: left;
+    position: relative;
+    transition: all 0.15s ease-out;
+}
+
+#main-carousel .carousel-inner .carousel-caption{
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #main-carousel .carousel-inner > .carousel-item,
+  #main-carousel .carousel-inner > .carousel-item > img{
+    height: 600px;
+  }
+
+  #main-carousel .carousel-inner > .carousel-item{
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #main-carousel .carousel-inner > .carousel-item.item-1{
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(0, 174, 237, 0.7) 50.43%,
+        rgba(0, 174, 237, 0) 80.81%,
+        transparent 50%
+      ),
+      url(/public/image/IMG_9049_1.JPG)
+  }
+
+  #main-carousel .carousel-inner > .carousel-item.item-2{
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(0, 174, 237, 0.7) 50.43%,
+        rgba(0, 174, 237, 0) 80.81%,
+        transparent 50%
+      ),
+      url(/public/image/IMG_3972.JPG);
+  }
+
+  #main-carousel .carousel-inner > .carousel-item.item-3{
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(0, 174, 237, 0.7) 50.43%,
+        rgba(0, 174, 237, 0) 80.81%,
+        transparent 50%
+      ),
+      url(/public/image/IMG_8858_1.JPG);
+  }
+
+.navbar-brand img {
+    width: 25%;
+}
+
+.headline-resp{
+    font-size: 32px;
+  }
