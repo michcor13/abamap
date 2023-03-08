@@ -14,6 +14,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
+    {{-- @viteReactRefresh --}}
     @vite(['resources/js/app.js','resources/css/app.css'])
 </head>
 <body>

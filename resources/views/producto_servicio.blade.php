@@ -1,6 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    <body>
-        Pagina de productos y servicio
-    </body>
+    <div id="productosServicio"></div>
 @stop
