@@ -16,6 +16,41 @@
     transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
 }
 
+#misivalo{
+  background-color: rgb(219, 217, 217);
+}
+
+.tituloemp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3cm;
+  color: #833000;
+  border: 20%;
+  margin-top: 20%;
+  margin-left: 10%;
+  text-align: center;
+
+}
+
+.empresa{
+  text-align: justify;
+  margin: 1cm;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border: 5%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.misvisval{
+  color: rgb(50, 147, 226);
+  font-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5%;
+  margin-top: 5%;
+  margin-left: 2%;
+
+}
+
 #main-nav .navbar-nav li:not(.active):before {
     visibility: hidden;
 }
