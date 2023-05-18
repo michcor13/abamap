@@ -4,7 +4,8 @@
         <div class="row justify-content-center">
             <div class="col-md-6 col-12">
                 <h2 class="text-center">Contacta con nosotros</h2>
-                <form>
+                <form method="post" action="{{route('send.mail')}}">
+                    @csrf
                     <div class="mb-3">
                         <label for="material">Material</label>
                         <select class="form-select" name="material" id="material">
@@ -21,7 +22,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" name="emial" id="emial" placeholder="nombre@ejemplo.com">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="nombre@ejemplo.com">
                     </div>
                     <div class="mb-3">
                         <label for="mensaje" class="form-label">Mensaje</label>

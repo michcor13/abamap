@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [App\Http\Controllers\AbamapController::class, 'inicio'])->name('inicio');
 Route::get('/productos-servicios', [App\Http\Controllers\AbamapController::class, 'productosServicios'])->name('producto.servicio');
 Route::get('/contacto', [App\Http\Controllers\AbamapController::class, 'contacto'])->name('contacto');
+Route::post('/send-email', [App\Http\Controllers\EmailController::class, 'sendEmail'])->name('send.mail');
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
