@@ -15,5 +15,8 @@
         "react-dom": "^18.2.0",
         "sass": "^1.56.1",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "sweetalert": "^2.1.2"
     }
 }
