@@ -104,7 +104,7 @@
         rgba(0, 174, 237, 0) 80.81%,
         transparent 50%
       ),
-      url(/resources/image/IMG_9049_1.JPG)
+      url(/public/image/3.PNG);
   }
 
   #main-carousel .carousel-inner > .carousel-item.item-2{
@@ -115,7 +115,7 @@
         rgba(0, 174, 237, 0) 80.81%,
         transparent 50%
       ),
-      url(/public/image/IMG_3972.JPG);
+      url(/public/image/4.JPG);
   }
 
   #main-carousel .carousel-inner > .carousel-item.item-3{
@@ -126,7 +126,27 @@
         rgba(0, 174, 237, 0) 80.81%,
         transparent 50%
       ),
-      url(/public/image/IMG_8858_1.JPG);
+      url(/public/image/5.JPG);
+  }
+  #main-carousel .carousel-inner > .carousel-item.item-4{
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(0, 174, 237, 0.7) 50.43%,
+        rgba(0, 174, 237, 0) 80.81%,
+        transparent 50%
+      ),
+      url(/public/image/4.JPG);
+  }
+  #main-carousel .carousel-inner > .carousel-item.item-5{
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(0, 174, 237, 0.7) 50.43%,
+        rgba(0, 174, 237, 0) 80.81%,
+        transparent 50%
+      ),
+      url(/public/image/3.JPG);
   }
 
 .navbar-brand img {
