@@ -1,38 +1,52 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import { SelectMaterial } from './selectCustom/materialSelect';
 import swal from 'sweetalert';
 
-const sendEmail = (e) => {
-    e.preventDefault()
-    const data = new FormData(e.target)
-    axios.post(e.target.action,data).then(res=>{
-        console.log(res.data)
-        swal({
-            icon: res.data.status??'error',
-            title: res.data.status==='success'?'Enviado':'Error',
-            text: res.data.mensaje??'Error al recuperar la respuesta del servidor.'
-        })
-    }).catch(err=>{
-        console.error(err)
-        swal({
-            icon: res.data.status??'error',
-            title: res.data.status==='success'?'Enviado':'Error',
-            text: res.data.mensaje??'Error al recuperar la respuesta del servidor.'
-        })
-    })
-}
 
 export default function Contacto() {
+    const [clearSelect, setClearSelect] = useState([]);
+    const sendEmail = (e) => {
+        e.preventDefault()
+        const spinner = document.createElement("div");
+        spinner.classList.add('row')
+        spinner.innerHTML = '<div><span class="spinner-border spinner-border-sm text-primary" role="status" aria-hidden="true" style="width: 3rem; height: 3rem;"></span></div>'+
+        '<span class="ml-2">Enviando correo...</span>';
+        swal({
+            content: spinner,
+            button: false,
+            closeOnClickOutside: false,
+            closeOnEsc: false,
+        })
+        const data = new FormData(e.target)
+        axios.post(e.target.action,data).then(res=>{
+            console.log(res.data)
+            swal({
+                icon: res.data.status??'error',
+                title: res.data.status==='success'?'Enviado':'Error',
+                text: res.data.mensaje??'Error al recuperar la respuesta del servidor.'
+            }).then(res=>{
+                document.getElementById('form-productos').reset()
+                clearSelect.clearValue()
+            })
+        }).catch(err=>{
+            console.error(err)
+            swal({
+                icon: res.data.status??'error',
+                title: res.data.status==='success'?'Enviado':'Error',
+                text: res.data.mensaje??'Error al recuperar la respuesta del servidor.'
+            })
+        })
+    }
     return (
         <section className="container my-5 py-5">
             <div className="row justify-content-center">
                 <div className="col-md-6 col-12">
                     <h2 className="text-center">Contacta con nosotros</h2>
-                    <form method="post" action="/send-email" onSubmit={sendEmail}>
+                    <form method="post" action="/send-email" onSubmit={sendEmail} id="form-productos">
                         <div className="mb-3">
                             <label htmlFor="material">Material</label>
-                            <SelectMaterial idSelect={'Maetrial'}/>
+                            <SelectMaterial idSelect={'Material'} setClearSelect={setClearSelect}/>
                         </div>
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Correo electrónico</label>

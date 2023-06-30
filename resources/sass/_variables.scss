@@ -5,3 +5,11 @@ $body-bg: #f8fafc;
 $font-family-sans-serif: 'AvenirNextLTPro-Regular', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$theme-colors: (
+  "primary": #00aeed,
+);
+
+$list-group: (
+    --bs-list-group-bg: #ffffff00
+)

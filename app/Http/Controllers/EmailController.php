@@ -17,7 +17,9 @@ class EmailController extends Controller
             'material' => $request->material??''
         ];
         try {
-            $senMail = Mail::to($request->email)->send(new SendMail($mailData));
+            Mail::to($request->email)->send(new SendMail($mailData));
+            Mail::to('clientes@abamap.com.mx')->send(new SendMail($mailData));
+            Mail::to('david.perez@abamap.com.mx')->send(new SendMail($mailData));
             $respuesta = [
                 'status' => 'success',
                 'mensaje' => 'Se envió el correo con éxito.'

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Select from 'react-select'
 import { groupSelectOptions } from '../accordion/accordionResources'
 
-export const SelectMaterial = ({ idSelect }) => {
+export const SelectMaterial = ({ idSelect, setClearSelect }) => {
     return (
         <Select
             key={idSelect}
@@ -12,6 +12,7 @@ export const SelectMaterial = ({ idSelect }) => {
             name="material[]"
             isMulti
             options={groupSelectOptions}
+            ref={(e) => setClearSelect(e)}
         />
         // <select className="form-select" multiple name="material[]" id="material" key={idSelect}>
         //     <option></option>

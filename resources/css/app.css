@@ -8,6 +8,15 @@
     font-style: normal;
   }
 
+.list-group {
+    --bs-list-group-bg: #ffffff00 !important
+}
+
+.list-group-item.active {
+    background-color: #00aeed !important;
+    border-color: #00aeed !important;
+}
+
 #main-nav .navbar-nav li:before {
     content: "";
     position: absolute;
@@ -164,7 +173,7 @@
   }
 
 .accordion {
-    --bs-accordion-bg: #e2e3e5 !important
+    --bs-accordion-bg: #e2e3e5 !important;
 }
 
 .accordion-button:not(.collapsed){

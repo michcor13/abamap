@@ -18,7 +18,10 @@ const AccordionItems = ({setAccordionContent}) => {
                                     <button
                                         type='button'
                                         className='list-group-item list-group-item-action list-group-item-secondary w-100 ps-5'
-                                        onClick={() => {
+                                        onClick={(e) => {
+                                            const classActive = document.querySelector('.list-group-item.active');
+                                            classActive !== null?classActive.classList.remove('active'): ''
+                                            e.target.classList.add('active')
                                             setAccordionContent([listId,contentItem[listId]])
                                             setTimeout(()=>document.getElementById('focusContent').focus(),200)
                                         }}
