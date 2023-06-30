@@ -12,14 +12,14 @@ export default function ProductosServicio() {
                         <AccordionItems setAccordionContent={setAccordionContent}/>
                     </div>
                 </div>
-                {accordionContent.length > 0 ? <div className='col-md-8 col-12' id={accordionContent[0]}>
-                    <div className='row'>
+                {(<div className='col-md-8 col-12' id={accordionContent[0]}>
+                    <div className='row' tabIndex={0} id='focusContent'>
                         <div className='col-md-12 col-12'>
-                            <h3 className='text-center'>{accordionContent[0]}</h3>
+                            <h1 className='text-center'>{accordionContent[0]}</h1>
                                 {accordionContent[1]}
                         </div>
                     </div>
-                </div>:''}
+                </div>)}
             </div>
         </section>
     );

@@ -17,6 +17,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "react-select": "^5.7.3",
         "sweetalert": "^2.1.2"
     }
 }

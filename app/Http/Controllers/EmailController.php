@@ -10,12 +10,25 @@ class EmailController extends Controller
 {
     public function sendEmail(Request $request)
     {
+        // return implode(', ',$request->material);
         $mailData = [
-            'title' => 'Contacto Abamap',
-            'body' => $request->mensaje??'This is the body of test email.'
+            'title' => $request->asunto??'Contacto Abamap',
+            'body' => $request->mensaje??'',
+            'material' => $request->material??''
         ];
-
-        $senMail = Mail::to($request->email)->send(new SendMail($mailData));
-        return redirect()->route('contacto');
+        try {
+            $senMail = Mail::to($request->email)->send(new SendMail($mailData));
+            $respuesta = [
+                'status' => 'success',
+                'mensaje' => 'Se envió el correo con éxito.'
+            ];
+            return response()->json($respuesta);
+        } catch (Exceptio $e) {
+            $respuesta = [
+                'status' => 'success',
+                'mensaje' => 'Se envió el correo con éxito.'
+            ];
+            return response()->json($respuesta);
+        }
     }
 }

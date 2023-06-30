@@ -2,6 +2,12 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.55);
 } */
 
+@font-face {
+    font-family: "AvenirNextLTPro-Regular";
+    src: url("../fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+    font-style: normal;
+  }
+
 #main-nav .navbar-nav li:before {
     content: "";
     position: absolute;

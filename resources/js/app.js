@@ -15,3 +15,4 @@ import '../sass/app.scss'
  */
 
 import './components/MainProductos';
+import './components/MainContacto';
