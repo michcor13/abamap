@@ -15,7 +15,7 @@ export default function ProductosServicio() {
                 {(<div className='col-md-8 col-12' id={accordionContent[0]}>
                     <div className='row' tabIndex={0} id='focusContent'>
                         <div className='col-md-12 col-12'>
-                            <h1 className='text-center'>{accordionContent[0]}</h1>
+                            <h1 className='text-center misvisval'>{accordionContent[0]}</h1>
                                 {accordionContent[1]}
                         </div>
                     </div>
