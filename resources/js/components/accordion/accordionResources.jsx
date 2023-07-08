@@ -377,3 +377,182 @@ export const groupSelectOptions = [
     }
 ]
 
+import Acético from '../../../image/Ácidos/Ácido acético.png';
+import Cítrico from '../../../image/Ácidos/Ácido citrico.png';
+import Fumárico from '../../../image/Ácidos/Acido fumárico.png';
+import Láctico from '../../../image/Ácidos/Ácido láctico.png';
+import Málico from '../../../image/Ácidos/Ácido Málico.png';
+import Ascórbico from '../../../image/Ácidos/Ácido ascórbico.png';
+import Sórbico from '../../../image/Ácidos/Ácido sórbico.png';
+import Tartárico from '../../../image/Ácidos/Ácido tartárico.png';
+
+import Guar from '../../../image/Hidrocoloides/Goma guar.png';
+import Xanthan from '../../../image/Hidrocoloides/Goma Xanthan.png';
+import CMC from '../../../image/Hidrocoloides/CMC.png';
+import Sistemas from '../../../image/Hidrocoloides/Sistemas gomas.png';
+
+import Benzoato from '../../../image/Conservadores/Benzoato.png';
+import Sorbato from '../../../image/Conservadores/Sorbato.png';
+import Nisina from '../../../image/Conservadores/Nisina.png';
+import Natamicina from '../../../image/Conservadores/Natamicina.png';
+import Propionato from '../../../image/Conservadores/Propionato.png';
+import Hexametafosfato from '../../../image/Conservadores/Hexametafosfato.png';
+import Metabisulfito from '../../../image/Conservadores/Metabisulfito.png';
+import BHA from '../../../image/Conservadores/BHA.png';
+import Citrato from '../../../image/Conservadores/Citrato.png';
+import EDTA from '../../../image/Conservadores/EDTA.png';
+import Eritorbato from '../../../image/Conservadores/Eritorbato.png';
+import SistemaConservacion from '../../../image/Conservadores/Sistema personalizado conservación.png';
+import Oxiplus from '../../../image/Conservadores/Oxiplus.png';
+
+import Acesulfame from '../../../image/Edulcorantes/Acesulfame K.png';
+import Aspartame from '../../../image/Edulcorantes/Aspartame.png';
+import Sucralosa from '../../../image/Edulcorantes/Sucralosa.png';
+import Neotame from '../../../image/Edulcorantes/Neotame.png';
+import Sorbitol from '../../../image/Edulcorantes/Sorbitol.png';
+
+import Glutamato from '../../../image/Potenciadores/Glutamato.png';
+import Capsicum from '../../../image/Potenciadores/Capsicum.png';
+import Paprika from '../../../image/Potenciadores/Paprika.png';
+import Jalapeño from '../../../image/Potenciadores/Jalapeño.png';
+import IG from '../../../image/Potenciadores/I+G.png';
+
+import Amarillo5 from '../../../image/Colorantes/Amarillo No.5.png';
+import Amarillo6 from '../../../image/Colorantes/Amarillo No. 6.png';
+import Rojo3 from '../../../image/Colorantes/Rojo No. 3.png';
+import Rojo5 from '../../../image/Colorantes/Rojo No. 5.png';
+import Rojo6 from '../../../image/Colorantes/Rojo No. 6.png';
+import Rojo40 from '../../../image/Colorantes/Rojo No. 40.png';
+import Azul1 from '../../../image/Colorantes/Azul No. 1.png';
+import Azul2 from '../../../image/Colorantes/Azul No. 2.png';
+import Dioxido from '../../../image/Colorantes/Dioxido de titanio.png';
+import Caramelo from '../../../image/Colorantes/Caramelo.png';
+import Colorantes from '../../../image/Colorantes/Colorantes personalizados.png';
+import Aperlado from '../../../image/Colorantes/Aperlado.png';
+
+import Fécula from '../../../image/Maíz/Fécula.png';
+import Almidones from '../../../image/Maíz/Almidones modificados.png';
+import Maltodextrina from '../../../image/Maíz/Maltodextrina.png';
+import SistemasMaiz from '../../../image/Maíz/Sistemas funcionales maíz.png';
+
+import Sosa from '../../../image/Coadyuvantes/Sosa.png';
+import Hipoclorito from '../../../image/Coadyuvantes/Hipoclorito.png';
+import Peróxido from '../../../image/Coadyuvantes/Peróxido.png';
+import Talco from '../../../image/Coadyuvantes/Talco.png';
+
+import WPC from '../../../image/Lacteos/WPC.png';
+import Cloruro from '../../../image/Lacteos/Cloruro de calcio.png';
+import Cuajo from '../../../image/Lacteos/Cuajo.png';
+import Lactosa from '../../../image/Lacteos/Lactosa.png';
+import Suero from '../../../image/Lacteos/Suero de leche.png';
+import Mantequilla from '../../../image/Lacteos/Mantequilla.png';
+
+import Sabores from '../../../image/Sabores/Sabores pequeños.png';
+import Virginia from '../../../image/Sabores/Virginia Dare.png';
+import SistemasSabores from '../../../image/Sabores/Sistemas sabores.png';
+
+import Lecitina from '../../../image/Emulsificantes/Lecitina de Soya.png';
+import Mono from '../../../image/Emulsificantes/Mono y digliceridos destilados.png';
+import Monoesterato from '../../../image/Emulsificantes/Monoesterato.png';
+import Sorbitan from '../../../image/Emulsificantes/Sorbitan.png';
+import Polisorbato from '../../../image/Emulsificantes/Polisorbato.png';
+
+import Antiespumante from '../../../image/Otros aditivos/Antiespumante.png';
+import Carbonato from '../../../image/Otros aditivos/Carbonato.png';
+import Diacetato from '../../../image/Otros aditivos/Diacetato.png';
+import DioxidoSilicio from '../../../image/Otros aditivos/Dioxido de silicio.png';
+import Fosfato from '../../../image/Otros aditivos/Fosfato disódico.png';
+import Monopropilenglicol from '../../../image/Otros aditivos/Monopropilenglicol.png';
+import Oleína from '../../../image/Otros aditivos/Oleína.png';
+
+import Demolpan from '../../../image/Nutryplus/Demolpan.png';
+import Mágico from '../../../image/Nutryplus/Mágico.png';
+import Conservadores from '../../../image/Nutryplus/Conservadores diseño.png';
+import Sucanela from '../../../image/Nutryplus/Sucanela.png';
+import Suavidad from '../../../image/Nutryplus/Suavidad.png';
+import Distribuidor from '../../../image/Nutryplus/Distribuidor autorizado.png';
+
+export const contentImage = {
+    'Ácido Acético': (<div className='text-center my-3'><img src={Acético} alt="Ácido Acético" width="300px"/></div>),
+    'Ácido Cítrico': (<div className='text-center my-3'><img src={Cítrico} alt="Ácido Cítrico" width="300px"/></div>),
+    'Ácido Fumárico': (<div className='text-center my-3'><img src={Fumárico} alt="Ácido Fumárico" width="300px"/></div>),
+    'Ácido Láctico': (<div className='text-center my-3'><img src={Láctico} alt="Ácido Láctico" width="300px"/></div>),
+    'Ácido Málico': (<div className='text-center my-3'><img src={Málico} alt="Ácido Málico" width="300px"/></div>),
+    'Ácido Ascórbico': (<div className='text-center my-3'><img src={Ascórbico} alt="Ácido Ascórbico" width="300px"/></div>),
+    'Ácido Sórbico': (<div className='text-center my-3'><img src={Sórbico} alt="Ácido Sórbico" width="300px"/></div>),
+    'Ácido Tartárico': (<div className='text-center my-3'><img src={Tartárico} alt="Ácido Tartárico" width="300px"/></div>),
+    'Goma Guar': (<div className='text-center my-3'><img src={Guar} alt="Goma Guar" width="300px"/></div>),
+    'Goma Xanthan': (<div className='text-center my-3'><img src={Xanthan} alt="Goma Xanthan" width="300px"/></div>),
+    'CMC': (<div className='text-center my-3'><img src={CMC} alt="CMC" width="300px"/></div>),
+    'Sistemas funcionales especializados': (<div className='text-center my-3'><img src={Sistemas} alt="Sistemas funcionales especializados" width="300px"/></div>),
+    'Benzoato de sodio': (<div className='text-center my-3'><img src={Benzoato} alt="Benzoato de sodio" width="300px"/></div>),
+    'Sorbato de potasio': (<div className='text-center my-3'><img src={Sorbato} alt="Sorbato de potasio" width="300px"/></div>),
+    'Nisina': (<div className='text-center my-3'><img src={Nisina} alt="Nisina" width="300px"/></div>),
+    'Natamicina': (<div className='text-center my-3'><img src={Natamicina} alt="Natamicina" width="300px"/></div>),
+    'Propionato de sodio y calcio': (<div className='text-center my-3'><img src={Propionato} alt="Propionato de sodio y calcio" width="300px"/></div>),
+    'Hexametafosfato de sodio': (<div className='text-center my-3'><img src={Hexametafosfato} alt="Hexametafosfato de sodio" width="300px"/></div>),
+    'Metabisulfito de sodio': (<div className='text-center my-3'><img src={Metabisulfito} alt="Metabisulfito de sodio" width="300px"/></div>),
+    'BHA': (<div className='text-center my-3'><img src={BHA} alt="BHA" width="300px"/></div>),
+    'Citrato de sodio': (<div className='text-center my-3'><img src={Citrato} alt="Citrato de sodio" width="300px"/></div>),
+    'EDTA': (<div className='text-center my-3'><img src={EDTA} alt="EDTA" width="300px"/></div>),
+    'Eritorbato de sodio': (<div className='text-center my-3'><img src={Eritorbato} alt="Eritorbato de sodio" width="300px"/></div>),
+    'Sistemas personalizados': (<div className='text-center my-3'><img src={SistemaConservacion} alt="Sistemas personalizados" width="300px"/></div>),
+    'Oxiplus': (<div className='text-center my-3'><img src={Oxiplus} alt="Oxiplus" width="300px"/></div>),
+    'Acesulfame K': (<div className='text-center my-3'><img src={Acesulfame} alt="Acesulfame K" width="300px"/></div>),
+    'Aspartame': (<div className='text-center my-3'><img src={Aspartame} alt="Aspartame" width="300px"/></div>),
+    'Sucralosa': (<div className='text-center my-3'><img src={Sucralosa} alt="Sucralosa" width="300px"/></div>),
+    'Neotame': (<div className='text-center my-3'><img src={Neotame} alt="Neotame" width="300px"/></div>),
+    'Sorbitol': (<div className='text-center my-3'><img src={Sorbitol} alt="Sorbitol" width="300px"/></div>),
+    'Glutamato Monosódico': (<div className='text-center my-3'><img src={Glutamato} alt="Glutamato Monosódico" width="300px"/></div>),
+    'Oleorresina de capsicum': (<div className='text-center my-3'><img src={Capsicum} alt="Oleorresina de capsicum" width="300px"/></div>),
+    'Oleorresina de Paprika': (<div className='text-center my-3'><img src={Paprika} alt="Oleorresina de Paprika" width="300px"/></div>),
+    'Oleorresina de Jalapeño': (<div className='text-center my-3'><img src={Jalapeño} alt="Oleorresina de Jalapeño" width="300px"/></div>),
+    'Inosinato + Guanilato (I+G)': (<div className='text-center my-3'><img src={IG} alt="Inosinato + Guanilato (I+G)" width="300px"/></div>),
+    'Amarillo No. 5': (<div className='text-center my-3'><img src={Amarillo5} alt="Amarillo No. 5" width="300px"/></div>),
+    'Amarillo No. 6': (<div className='text-center my-3'><img src={Amarillo6} alt="Amarillo No. 6" width="300px"/></div>),
+    'Rojo No. 3': (<div className='text-center my-3'><img src={Rojo3} alt="Rojo No. 3" width="300px"/></div>),
+    'Rojo No. 5': (<div className='text-center my-3'><img src={Rojo5} alt="Rojo No. 5" width="300px"/></div>),
+    'Rojo No. 6': (<div className='text-center my-3'><img src={Rojo6} alt="Rojo No. 6" width="300px"/></div>),
+    'Rojo No. 40': (<div className='text-center my-3'><img src={Rojo40} alt="Rojo No. 40" width="300px"/></div>),
+    'Azul No. 1': (<div className='text-center my-3'><img src={Azul1} alt="Azul No. 1" width="300px"/></div>),
+    'Azul No. 2': (<div className='text-center my-3'><img src={Azul2} alt="Azul No. 2" width="300px"/></div>),
+    'Dióxido de Titanio': (<div className='text-center my-3'><img src={Dioxido} alt="Dióxido de Titanio" width="300px"/></div>),
+    'Color Caramelo': (<div className='text-center my-3'><img src={Caramelo} alt="Color Caramelo" width="300px"/></div>),
+    'Mezclas personalizadas': (<div className='text-center my-3'><img src={Colorantes} alt="Mezclas personalizadas" width="300px"/></div>),
+    'Colores aperlados': (<div className='text-center my-3'><img src={Aperlado} alt="Colores aperlados" width="300px"/></div>),
+    'Almidón nativo': (<div className='text-center my-3'><img src={Fécula} alt="Almidón nativo" width="300px"/></div>),
+    'Almidones modificados': (<div className='text-center my-3'><img src={Almidones} alt="Almidones modificados" width="300px"/></div>),
+    'Maltodextrina': (<div className='text-center my-3'><img src={Maltodextrina} alt="Maltodextrina" width="300px"/></div>),
+    'Sistemas funcionales especializados (Maíz)': (<div className='text-center my-3'><img src={SistemasMaiz} alt="Sistemas funcionales especializados (Maíz)" width="300px"/></div>),
+    'Sosa liquida y escamas': (<div className='text-center my-3'><img src={Sosa} alt="Sosa liquida y escamas" width="300px"/></div>),
+    'Hipoclorito de sodio': (<div className='text-center my-3'><img src={Hipoclorito} alt="Hipoclorito de sodio" width="300px"/></div>),
+    'Peróxido de hidrogeno': (<div className='text-center my-3'><img src={Peróxido} alt="Peróxido de hidrogeno" width="300px"/></div>),
+    'Talco': (<div className='text-center my-3'><img src={Talco} alt="Talco" width="300px"/></div>),
+    'WPC': (<div className='text-center my-3'><img src={WPC} alt="WPC" width="300px"/></div>),
+    'Cloruro de calcio': (<div className='text-center my-3'><img src={Cloruro} alt="Cloruro de calcio" width="300px"/></div>),
+    'Cuajo doble fuerza': (<div className='text-center my-3'><img src={Cuajo} alt="Cuajo doble fuerza" width="300px"/></div>),
+    'Lactosa': (<div className='text-center my-3'><img src={Lactosa} alt="Lactosa" width="300px"/></div>),
+    'Suero de leche': (<div className='text-center my-3'><img src={Suero} alt="Suero de leche" width="300px"/></div>),
+    'Solidos de mantequilla': (<div className='text-center my-3'><img src={Mantequilla} alt="Solidos de mantequilla" width="300px"/></div>),
+    'Desde presentaciones pequeñas': (<div className='text-center my-3'><img src={Sabores} alt="Desde presentaciones pequeñas" width="300px"/></div>),
+    'Virginia Dare®': (<div className='text-center my-3'><img src={Virginia} alt="Virginia Dare®" width="300px"/></div>),
+    'Sistemas personalizados (Saborizantes)': (<div className='text-center my-3'><img src={SistemasSabores} alt="Sistemas personalizados (Saborizantes)" width="300px"/></div>),
+    'Lecitina de soya': (<div className='text-center my-3'><img src={Lecitina} alt="Lecitina de soya" width="300px"/></div>),
+    'Mono y diglicéridos destilados': (<div className='text-center my-3'><img src={Mono} alt="Mono y diglicéridos destilados" width="300px"/></div>),
+    'Monoestearato de glicerilo': (<div className='text-center my-3'><img src={Monoesterato} alt="Monoestearato de glicerilo" width="300px"/></div>),
+    'Monoestearato de sorbitan': (<div className='text-center my-3'><img src={Sorbitan} alt="Monoestearato de sorbitan" width="300px"/></div>),
+    'Polisorbatos': (<div className='text-center my-3'><img src={Polisorbato} alt="Polisorbatos" width="300px"/></div>),
+    'Antiespumante': (<div className='text-center my-3'><img src={Antiespumante} alt="Antiespumante" width="300px"/></div>),
+    'Carbonato de sodio denso': (<div className='text-center my-3'><img src={Carbonato} alt="Carbonato de sodio denso" width="300px"/></div>),
+    'Diacetato de sodio': (<div className='text-center my-3'><img src={Diacetato} alt="Diacetato de sodio" width="300px"/></div>),
+    'Dióxido de silicio': (<div className='text-center my-3'><img src={DioxidoSilicio} alt="Dióxido de silicio" width="300px"/></div>),
+    'Fosfato disódico': (<div className='text-center my-3'><img src={Fosfato} alt="Fosfato disódico" width="300px"/></div>),
+    'Monopropilenglicol USP': (<div className='text-center my-3'><img src={Monopropilenglicol} alt="Monopropilenglicol USP" width="300px"/></div>),
+    'Oleína de palma refinada': (<div className='text-center my-3'><img src={Oleína} alt="Oleína de palma refinada" width="300px"/></div>),
+    'Demolpan (Antiadherente)': (<div className='text-center my-3'><img src={Demolpan} alt="Demolpan (Antiadherente" width="300px"/></div>),
+    'Polvo para hornear (Mágico)': (<div className='text-center my-3'><img src={Mágico} alt="Polvo para hornear (Mágico)" width="300px"/></div>),
+    'Conservadores de diseño': (<div className='text-center my-3'><img src={Conservadores} alt="Conservadores de diseño" width="300px"/></div>),
+    'Sustituto de canela sanitizado': (<div className='text-center my-3'><img src={Sucanela} alt="Sustituto de canela sanitizado" width="300px"/></div>),
+    'Mejoradores de suavidad': (<div className='text-center my-3'><img src={Suavidad} alt="Mejoradores de suavidad" width="300px"/></div>),
+    'Otros productos para panificación': (<div className='text-center my-3'><img src={Distribuidor} alt="Otros productos para panificación" width="300px"/></div>),
+}

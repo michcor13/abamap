@@ -1,5 +1,5 @@
 import React from 'react';
-import {accordionTitleList, listItem, contentItem} from './accordionResources'
+import {accordionTitleList, listItem, contentItem, contentImage} from './accordionResources'
 
 const AccordionItems = ({setAccordionContent}) => {
     return (
@@ -22,8 +22,8 @@ const AccordionItems = ({setAccordionContent}) => {
                                             const classActive = document.querySelector('.list-group-item.active');
                                             classActive !== null?classActive.classList.remove('active'): ''
                                             e.target.classList.add('active')
-                                            setAccordionContent([listId,contentItem[listId]])
-                                            setTimeout(()=>document.getElementById('focusContent').focus(),200)
+                                            setAccordionContent([listId,contentItem[listId],contentImage[listId]])
+                                            window.innerWidth > 767 ? window.scrollTo({ top: 0, behavior: 'smooth' }) : setTimeout(()=>document.getElementById(listId).focus(),200)
                                         }}
                                     >{listId}</button>
                                 </div>

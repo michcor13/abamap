@@ -11,12 +11,12 @@ export default defineConfig({
             'resources/js/app.js',
         ]),
     ],
-    css: {
-        preprocessorOptions: {
-          less: {
-            rewriteUrls: 'local',
-            rootpath: "http://localhost:8000/src",
-          },
-        },
-      },
+    // css: {
+    //     preprocessorOptions: {
+    //       less: {
+    //         rewriteUrls: 'local',
+    //         rootpath: "http://localhost:8000/src",
+    //       },
+    //     },
+    //   },
 });
