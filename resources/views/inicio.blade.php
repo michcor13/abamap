@@ -49,14 +49,31 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                  <!--  <div class="carousel-item item-4" data-bs-interval="5000">
+                        <div class="carousel-caption text-left d-flex h-100 align-items-center">
+                            <div class="row">
+                                <div class="col-12 col-md-12">
+                                    <h1 class="headline-resp">
+                                        <strong>ABAMAP</strong><br>
+                                         Advancing in Supplying System
+                                    </h1>
+                                    <p>
+                                        {{-- <a class="btn btn-lg btn-second body-2" href="https://wa.me/524424269852">Hablar con un asesor</a> --}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                </div> 
+
+                
 
                 <!--Empresa nuevo -->
                 <section class="container">
                     <div class="row">
                         <div class="col-12 col-lg-4 align-self-center">
                             <div class="section-custom-img">
-                                <img src="\image\empresa.jpg" class="img-fluid custom-img">
+                                <img src="\image\ABAMAP.png" class="img-fluid custom-img">
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mt-5 text-center">
