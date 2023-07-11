@@ -153,7 +153,7 @@
       ),
       url(/public/image/4.JPG);
   }
-  #main-carousel .carousel-inner > .carousel-item.item-5{
+  /* #main-carousel .carousel-inner > .carousel-item.item-5{
     background-image:
       linear-gradient(
         to right,
@@ -162,7 +162,7 @@
         transparent 50%
       ),
       url(/public/image/3.JPG);
-  }
+  } */
 
 .navbar-brand img {
     width: 25%;
