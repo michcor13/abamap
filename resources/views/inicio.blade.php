@@ -54,9 +54,9 @@
                 <!--Empresa nuevo -->
                 <section class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-4 align-self-center">
+                        <div class="col-12 col-lg-4 align-self-center mt-3">
                             <div class="section-custom-img">
-                                <img src="\image\empresa.jpg" class="img-fluid custom-img">
+                                <img src="{{ Vite::asset('resources/image/Página/Instalaciones.png') }}" class="img-fluid custom-img">
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mt-5 text-center">
