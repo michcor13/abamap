@@ -81,14 +81,14 @@
                                     </div>
                                 </li>
                             @endguest --}}
-                            <li class="nav-item mx-3 {{ request()->routeIs('inicio') ? 'active' : '' }}">
+                            <li class="nav-item mx-2 {{ request()->routeIs('inicio') ? 'active' : '' }}">
                                 <a class="nav-link fs-5" href="{{ route('inicio') }}">Inicio</a>
                             </li>
-                            <li class="nav-item mx-3 {{ request()->routeIs('producto.servicio') ? 'active' : '' }}">
+                            <li class="nav-item mx-2 {{ request()->routeIs('producto.servicio') ? 'active' : '' }}">
                                 <a class="nav-link fs-5" href="{{ route('producto.servicio') }}">Productos y
                                     Servicios</a>
                             </li>
-                            <li class="nav-item mx-3 {{ request()->routeIs('contacto') ? 'active' : '' }}">
+                            <li class="nav-item mx-2 {{ request()->routeIs('contacto') ? 'active' : '' }}">
                                 <a class="nav-link fs-5" href="{{ route('contacto') }}">Contacto</a>
                             </li>
                         </ul>

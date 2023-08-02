@@ -120,6 +120,7 @@
         transparent 50%
       ),
       url(/resources/image/Instalaciones.png);
+      url(/resources/image/Pagina/Instalaciones.png);
   }
 
   #main-carousel .carousel-inner > .carousel-item.item-2{
@@ -131,6 +132,7 @@
         transparent 50%
       ),
       url(/resources/image/Vehicular.png);
+      url(/resources/image/Pagina/Vehicular.png);
   }
 
   #main-carousel .carousel-inner > .carousel-item.item-3{
@@ -142,6 +144,7 @@
         transparent 50%
       ),
       url(/resources/image/Colorantes.png);
+      url(/resources/image/Pagina/Colorantes.png);
   }
   #main-carousel .carousel-inner > .carousel-item.item-4{
     background-image:
@@ -152,6 +155,7 @@
         transparent 50%
       ),
       url(/resorces/image/Instalaciones.png);
+      url(/resources/image/Pagina/Instalaciones.png);
   }
   /* #main-carousel .carousel-inner > .carousel-item.item-5{
     background-image:

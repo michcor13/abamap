@@ -379,14 +379,14 @@ export const groupSelectOptions = [
     }
 ]
 
-import Acético from '../../../image/Ácidos/Ácido acético.png';
-import Cítrico from '../../../image/Ácidos/Ácido citrico.png';
-import Fumárico from '../../../image/Ácidos/Acido fumárico.png';
-import Láctico from '../../../image/Ácidos/Ácido láctico.png';
-import Málico from '../../../image/Ácidos/Ácido Málico.png';
-import Ascórbico from '../../../image/Ácidos/Ácido ascórbico.png';
-import Sórbico from '../../../image/Ácidos/Ácido sórbico.png';
-import Tartárico from '../../../image/Ácidos/Ácido tartárico.png';
+import Acetico from '../../../image/Acidos/acido_acetico.png';
+import Citrico from '../../../image/Acidos/acido_citrico.png';
+import Fumarico from '../../../image/Acidos/acido_fumarico.png';
+import Lactico from '../../../image/Acidos/acido_lactico.png';
+import Malico from '../../../image/Acidos/acido_malico.png';
+import Ascorbico from '../../../image/Acidos/acido_ascorbico.png';
+import Sorbico from '../../../image/Acidos/acido_sorbico.png';
+import Tartarico from '../../../image/Acidos/acido_tartarico.png';
 
 import Guar from '../../../image/Hidrocoloides/Goma guar.png';
 import Xanthan from '../../../image/Hidrocoloides/Goma Xanthan.png';
@@ -404,7 +404,7 @@ import BHA from '../../../image/Conservadores/BHA.png';
 import Citrato from '../../../image/Conservadores/Citrato.png';
 import EDTA from '../../../image/Conservadores/EDTA.png';
 import Eritorbato from '../../../image/Conservadores/Eritorbato.png';
-import SistemaConservacion from '../../../image/Conservadores/Sistema personalizado conservación.png';
+import SistemaConservacion from '../../../image/Conservadores/Sistema_personalizado_conservacion.png';
 import Oxiplus from '../../../image/Conservadores/Oxiplus.png';
 
 import Acesulfame from '../../../image/Edulcorantes/Acesulfame K.png';
@@ -416,7 +416,7 @@ import Sorbitol from '../../../image/Edulcorantes/Sorbitol.png';
 import Glutamato from '../../../image/Potenciadores/Glutamato.png';
 import Capsicum from '../../../image/Potenciadores/Capsicum.png';
 import Paprika from '../../../image/Potenciadores/Paprika.png';
-import Jalapeño from '../../../image/Potenciadores/Jalapeño.png';
+import Jalapeno from '../../../image/Potenciadores/Jalapeno.png';
 import IG from '../../../image/Potenciadores/I+G.png';
 
 import Amarillo5 from '../../../image/Colorantes/Amarillo No.5.png';
@@ -432,14 +432,14 @@ import Caramelo from '../../../image/Colorantes/Caramelo.png';
 import Colorantes from '../../../image/Colorantes/Colorantes personalizados.png';
 import Aperlado from '../../../image/Colorantes/Aperlado.png';
 
-import Fécula from '../../../image/Maíz/Fécula.png';
-import Almidones from '../../../image/Maíz/Almidones modificados.png';
-import Maltodextrina from '../../../image/Maíz/Maltodextrina.png';
-import SistemasMaiz from '../../../image/Maíz/Sistemas funcionales maíz.png';
+import Fecula from '../../../image/Maiz/Fecula.png';
+import Almidones from '../../../image/Maiz/Almidones_modificados.png';
+import Maltodextrina from '../../../image/Maiz/Maltodextrina.png';
+import SistemasMaiz from '../../../image/Maiz/Sistemas_funcionales_maiz.png';
 
 import Sosa from '../../../image/Coadyuvantes/Sosa.png';
 import Hipoclorito from '../../../image/Coadyuvantes/Hipoclorito.png';
-import Peróxido from '../../../image/Coadyuvantes/Peróxido.png';
+import Peróxido from '../../../image/Coadyuvantes/Peroxido.png';
 import Talco from '../../../image/Coadyuvantes/Talco.png';
 
 import WPC from '../../../image/Lacteos/WPC.png';
@@ -449,7 +449,7 @@ import Lactosa from '../../../image/Lacteos/Lactosa.png';
 import Suero from '../../../image/Lacteos/Suero de leche.png';
 import Mantequilla from '../../../image/Lacteos/Mantequilla.png';
 
-import Sabores from '../../../image/Sabores/Sabores pequeños.png';
+import Sabores from '../../../image/Sabores/Sabores_pequenos.png';
 import Virginia from '../../../image/Sabores/Virginia Dare.png';
 import SistemasSabores from '../../../image/Sabores/Sistemas sabores.png';
 
@@ -463,13 +463,13 @@ import Antiespumante from '../../../image/Otros aditivos/Antiespumante.png';
 import Carbonato from '../../../image/Otros aditivos/Carbonato.png';
 import Diacetato from '../../../image/Otros aditivos/Diacetato.png';
 import DioxidoSilicio from '../../../image/Otros aditivos/Dioxido de silicio.png';
-import Fosfato from '../../../image/Otros aditivos/Fosfato disódico.png';
+import Fosfato from '../../../image/Otros aditivos/Fosfato_disodico.png';
 import Monopropilenglicol from '../../../image/Otros aditivos/Monopropilenglicol.png';
-import Oleína from '../../../image/Otros aditivos/Oleína.png';
+import Oleína from '../../../image/Otros aditivos/Oleina.png';
 
 import Demolpan from '../../../image/Nutryplus/Demolpan.png';
-import Mágico from '../../../image/Nutryplus/Mágico.png';
-import Conservadores from '../../../image/Nutryplus/Conservadores diseño.png';
+import Mágico from '../../../image/Nutryplus/Magico.png';
+import Conservadores from '../../../image/Nutryplus/Conservadores_diseno.png';
 import Sucanela from '../../../image/Nutryplus/Sucanela.png';
 import Suavidad from '../../../image/Nutryplus/Suavidad.png';
 import Distribuidor from '../../../image/Nutryplus/Distribuidor autorizado.png';
