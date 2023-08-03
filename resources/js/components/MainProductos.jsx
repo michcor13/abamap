@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { useState } from 'react';
 import AccordionItems from './accordion/accordionItems';
 
+
 export default function ProductosServicio() {
     const [accordionContent, setAccordionContent] = useState([]);
     return (
