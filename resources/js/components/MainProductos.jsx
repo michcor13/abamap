@@ -30,6 +30,13 @@ export default function ProductosServicio() {
     );
 }
 
+document.addEventListener('DOMContentLoaded',function() {
+    setTimeout(()=>{
+        document.querySelector('h2#producto0>button').click()
+        document.querySelector('button.active').click()
+    },500)
+})
+
 if (document.getElementById('productosServicio')) {
     const Index = ReactDOM.createRoot(document.getElementById("productosServicio"));
 

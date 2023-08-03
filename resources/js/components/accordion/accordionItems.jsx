@@ -17,7 +17,7 @@ const AccordionItems = ({setAccordionContent}) => {
                                 <div key={lId} className="list-group list-group-flush pt-1">
                                     <button
                                         type='button'
-                                        className='list-group-item list-group-item-action list-group-item-secondary w-100 ps-5'
+                                        className={'list-group-item list-group-item-action list-group-item-secondary w-100 ps-5 ' + (listId === 'Ácido Acético'? 'active' : '')}
                                         onClick={(e) => {
                                             const classActive = document.querySelector('.list-group-item.active');
                                             classActive !== null?classActive.classList.remove('active'): ''
@@ -25,7 +25,7 @@ const AccordionItems = ({setAccordionContent}) => {
                                             setAccordionContent([listId,contentItem[listId],contentImage[listId]])
                                             window.innerWidth > 767 ? window.scrollTo({ top: 0, behavior: 'smooth' }) : setTimeout(()=>document.getElementById(listId).focus(),200)
                                         }}
-                                    >{listId}</button>
+                                        >{listId}</button>
                                 </div>
                             )
                             )}
