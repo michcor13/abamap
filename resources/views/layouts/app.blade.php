@@ -14,9 +14,11 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
+    <!-- Icons -->
+
     <!-- Scripts -->
     {{-- @viteReactRefresh --}}
-    @vite(['resources/js/app.js', 'resources/css/app.css'])
+    @vite(['resources/js/app.js', 'resources/css/app.css', 'resources/fontawesome/css/all.css'])
 </head>
 
 <body>

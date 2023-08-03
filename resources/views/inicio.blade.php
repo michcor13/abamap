@@ -60,24 +60,24 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mt-5 text-center">
-                            <h1 class="tituloemp text-center">¿Quienes somos?</h1>
+                            <h1 class="tituloemp text-center">¿Quiénes somos?</h1>
                             <p class="body-2">Somos una empresa mexicana comprometida con la industria alimenticia entregando aditivos con la mejor calidad y prestigio.
                                 <br>
-                                Nos hemos mantenido en constante crecimiento en tecnología, infraestructura e insumos, atendiendo de manera óptima las necesidades y la demanda del mercado.
+                                Nos hemos mantenido en constante crecimiento en tecnología, infraestructura e insumos, atendiendo de manera óptima las necesidades y las demandas del mercado.
                             </p>
 
 
-                            <h1 class="misvisval text-center">
+                            <h1 class="misvisval text-center mt-4">
                                 Misión
                             </h1>
 
                             <p class="body-2">Ofrecer a nuestros clientes el mejor servicio, asesoría, calidad y variedad de productos aditivos alimentarios a la medida de sus necesidades.</p>
-                            <h1 class="misvisval text-center">
+                            <h1 class="misvisval text-center mt-4">
                                 Visión
                             </h1>
                             <p class="body-2">Consolidarnos como la empresa con mejor oferta de valor y experiencia de atención para nuestros clientes y la sociedad.</p>
 
-                            <h1 class="misvisval text-center">
+                            <h1 class="misvisval text-center mt-4">
                                 Valores
                             </h1>
                             <ul class="list-group list-group-flush">
@@ -96,7 +96,6 @@
                                 <li class="list-group-item bg-transparent text-center">Orientación al cliente</li>
                                 <li class="list-group-item bg-transparent text-center">Calidad</li> --}}
                               </ul>
-                            <p class="fw-bold fs-5 text-center">En ABAMAP somos los mejores en lo que hacemos.</p>
                         </div>
 
                     </div>
@@ -115,10 +114,9 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3 class="fs-2 text-body-emphasis">Alimentos premium prestige SA de CV</h3>
-                                <p>La materia prima que ABAMAP nos provee ha sido siempre de primera calidad, por lo que
-                                    nuestros insumos y productos que vendemos se han posicionado como los mejores dentro de
-                                    nuestro mercado.</p>
+                                <h3 class="fs-2 text-body-emphasis">Empresa líder en formulación Puebla</h3>
+                                <p>Nuestra planta no se encuentra en CDMX, pero siempre tratan de cubrir todos los requerimientos en tiempo y forma, buscando los mejores precios
+                                    y materiales de la mejor calidad. Aprobamos cada vez más productos con ellos por el servicio global que nos ofrecen.</p>
                                 <a href="contacto" class="btn btn-primary">
                                     Contacto
                                 </a>
@@ -132,9 +130,9 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3 class="fs-2 text-body-emphasis">Charritos y frutiras José</h3>
-                                <p>El mercado en el que nos movemos es muy amplio, sobre todo si compites con marcas grandes
-                                    a nivel mundia.
+                                <h3 class="fs-2 text-body-emphasis">Corporación global líder en saborizantes Argentina / Puebla</h3>
+                                <p>Están dispuestos a ofrecer una alternativa ante cualquier inconveniente con rapidez en la respuesta.
+                                    A pesar de que la diferencia horaria no he tenido ninguna mala experiencia con ellos en los 9 años que tienen como proveedor.
                                     <br>
                                     Al comprar mis productos primarios con ABAMAP me ha garantizado una estabilidad de
                                     mercado, por eso y mas los recomiendo.
@@ -152,12 +150,9 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3 class="fs-2 text-body-emphasis">Productora de materias primas para alimentos SLP</h3>
-                                <p>Una empresa a veces no puede siempre generar la materia prima desde cero o generar todo
-                                    lo que existe, por lo que a veces nos toca buscar un proveedor que nos apoye.
-                                    <br>
-                                    La meteria que nos ofrece ABAMAP es de excelente calidad, por lo que seguiremos con
-                                    ellos mucho mas tiempo.
+                                <h3 class="fs-2 text-body-emphasis">Empresa local con exportación líder en condimentos CDMX</h3>
+                                <p>A diferencia de otros distribuidores me proporcionan la información técnica que necesito. Me surten muchos productos de bajo volumen,
+                                    pero aun así si son de alta calidad con precios muy competitivos y tiempos de entrega bajos con un excelente trato.
                                 </p>
                                 <a href="productos-servicios" class="btn btn-primary">
                                     Productos
